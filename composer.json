@@ -1,0 +1,14 @@
+{
+    "name": "juststeveking/event-snap-sdk",
+    "description": "The official Laravel SDK for the EventSnap API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve McDougall",
+            "email": "juststevemcd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
