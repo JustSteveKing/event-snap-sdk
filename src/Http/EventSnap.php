@@ -43,11 +43,12 @@ final readonly class EventSnap
                 data: $payload->toArray(),
             );
         } catch (Throwable $exception) {
-            throw new EventSnapApiException(
-                message: 'Something went wrong sending your request.',
-                code: $exception->getCode(),
-                previous: $exception,
-            );
+            throw $exception;
+//            throw new EventSnapApiException(
+//                message: 'Something went wrong sending your request.',
+//                code: $exception->getCode(),
+//                previous: $exception,
+//            );
         }
     }
 
